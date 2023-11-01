@@ -624,12 +624,12 @@ video {
   z-index: 10;
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .m-1 {
   margin: 0.25rem;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .mx-4 {
@@ -744,10 +744,6 @@ video {
 
 .h-9 {
   height: 2.25rem;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .max-h-\[170px\] {
@@ -971,10 +967,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/dist\/img\/portfolio\/3\.jpg\'\)\] {
-  background-image: url('/dist/img/portfolio/3.jpg');
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -1175,6 +1167,11 @@ video {
   color: rgb(236 72 153 / var(--tw-text-opacity));
 }
 
+.text-pink-700 {
+  --tw-text-opacity: 1;
+  color: rgb(190 24 93 / var(--tw-text-opacity));
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(217 119 6 / var(--tw-text-opacity));
@@ -1198,11 +1195,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-pink-700 {
-  --tw-text-opacity: 1;
-  color: rgb(190 24 93 / var(--tw-text-opacity));
 }
 
 .opacity-60 {
