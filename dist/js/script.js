@@ -92,3 +92,8 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
   closeAlert.addEventListener('click', function(){
     myAlert.classList.add('hidden')
   })
+
+  
+  gsap.registerPlugin(TextPlugin)
+  gsap.to('.show-text', {duration: 5, text: 'Software Engineer | Web Developer | Front End Web Developer'})
+  
